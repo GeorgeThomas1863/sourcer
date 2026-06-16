@@ -1,0 +1,42 @@
+.env
+.env.local
+.env.*
+.local.env
+.env.example
+
+.claude/pics/*
+.claude/.tmp/
+.claude/.pics/
+.superpowers/
+.remember/
+.playwright-mcp/
+.claude/settings.local.json
+.claude/launch.json
+.mcp.json
+
+# logs
+logs
+*.log
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+package-lock.json
+
+# Optional npm cache directory
+.npm
+
+# vitepress build output
+**/.vitepress/dist
+
+# vitepress cache directory
+**/.vitepress/cache
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+.vscode/
