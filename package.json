@@ -1,0 +1,33 @@
+{
+  "name": "sourcer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "homepage": "https://github.com/GeorgeThomas1863/sourcer#readme",
+  "bugs": {
+    "url": "https://github.com/GeorgeThomas1863/sourcer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeThomas1863/sourcer.git"
+  },
+  "license": "ISC",
+  "author": "George H. Thomas",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.104.2",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "mongodb": "^7.3.0",
+    "nodemon": "^3.1.14",
+    "vitest": "^4.1.9"
+  }
+}
